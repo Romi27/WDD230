@@ -11,23 +11,32 @@
     <link rel="stylesheet" href="styles-folder/Base.css">
     <link rel="stylesheet" href="styles-folder/larger.css">
   </head>
-  <body>
+  <body >
+    <div id="mode">
+      ☑️
+    </div>
     <nav>
-      <a href="javascript:void(0);"  class="icon-menu" onclick="myFunction()" ><svg xmlns="http://www.w3.org/2000/svg" height="48" width="48">
-        <path d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z" /></svg>
-        <i class="fa fa-bars"></i>
-      
-        <a href="https://www.linkedin.com/in/romina-canteros-a524a1213/">linkedin</a>
-        <a href="https://www.byui.edu/">BYU-Idaho</a>
-      </a>
+     
+      <ul class="menu">
+        <li title="home">
+          <a  id="menu-button"><svg xmlns="http://www.w3.org/2000/svg"height="48" width="48"><path d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z" /></svg></a>
+          
+        </li>
+        <li title="linkedin">
+          <a href="https://www.linkedin.com/in/romina-canteros-a524a1213/" class="menu-item">linkedin</a>
+        </li>
+        <li title="BYU-Idaho">
+          <a href="https://www.byui.edu/"class="menu-item">BYU-Idaho</a>
+        </li>
+        
+      </ul>
     </nav>
-    
     <header>
       <h1>HTML Reference</h1>
       <img src="images-folder/Romina.jpg" alt="My test image" />
       
     </header>
-    <main width="760" height="240" controls>
+    <main width="760" height="240" controls id="main">
       <h3>WDD 230: Course Activity Portal</h3>
       <section class="Card">
         <h3>Learning Activities</h3>
